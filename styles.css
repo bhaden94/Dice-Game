@@ -1,0 +1,100 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-color: #393E46;
+  color: #4ECCA3;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+}
+
+img {
+  width: 75%;
+}
+
+/* classes */
+
+.btn-outline-light {
+  color: #4ECCA3;
+  border-color: #4ECCA3;
+}
+
+.btn-block {
+  margin: 7% 0;
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+
+.player-text {
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* footer styling */
+
+.footer-icons {
+  color: #4ECCA3;
+}
+
+.footer-icons:hover {
+  color: #fff;
+}
+
+.copyright {
+  font-size: .9rem;
+  margin-bottom: 0;
+}
+
+#footer {
+  height: 180px;
+}
+
+#footer .container-fluid {
+  padding: 20px 0 20px;
+}
+
+#footer .container-fluid .row {
+  padding: 10px 0 10px;
+}
+
+#contact-btn {
+  font-size: 1rem;
+}
+/* end footer styling */
+
+/* main wrap so footer will work */
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -180px;
+  /* Pad bottom by footer height */
+  padding: 0 0 180px;
+}
+
+/* media queries for screen sizes */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  img {
+    width: 55%;
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
